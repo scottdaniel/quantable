@@ -1,5 +1,5 @@
 #' robust scaling
-#' uses median an mad instead of mean and row
+#' uses median and mad instead of mean and row
 #' applies the scaling to the columns (samples) by default
 #' @export
 #' @param data matrix or data.frame

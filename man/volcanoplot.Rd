@@ -4,9 +4,20 @@
 \alias{volcanoplot}
 \title{volcano plot}
 \usage{
-volcanoplot(foldchange, pvals, pthresh = 0.05, foldchangethresh = 1,
-  xlab = "log2(T/N)", ylab = "-log10(P)", labels = NULL, cex = 0.6,
-  cex.point = 1, xlim = NULL, main = NULL, biasAdjust = FALSE)
+volcanoplot(
+  foldchange,
+  pvals,
+  pthresh = 0.05,
+  foldchangethresh = 1,
+  xlab = "log2(T/N)",
+  ylab = "-log10(P)",
+  labels = NULL,
+  cex = 0.6,
+  cex.point = 1,
+  xlim = NULL,
+  main = NULL,
+  biasAdjust = FALSE
+)
 }
 \arguments{
 \item{foldchange}{- fold change values}

@@ -4,12 +4,24 @@
 \alias{simpleheatmap3}
 \title{heatmap3 facade}
 \usage{
-simpleheatmap3(pln, main = "", distf = dist, hclustf = hclust,
-  labRow = "", labCol = "", palette = getBlueWhiteRed(),
-  margins = c(5, 5), scale = "none", plot = TRUE,
-  nrOfClustersCol = 3, nrOfClustersRow = 3,
-  suppressColSideCols = FALSE, ColSideLabs = "", RowSideLabs = "",
-  ...)
+simpleheatmap3(
+  pln,
+  main = "",
+  distf = dist,
+  hclustf = hclust,
+  labRow = "",
+  labCol = "",
+  palette = getBlueWhiteRed(),
+  margins = c(5, 5),
+  scale = "none",
+  plot = TRUE,
+  nrOfClustersCol = 3,
+  nrOfClustersRow = 3,
+  suppressColSideCols = FALSE,
+  ColSideLabs = "",
+  RowSideLabs = "",
+  ...
+)
 }
 \arguments{
 \item{pln}{matrix or dataframe with numerical values}

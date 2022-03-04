@@ -4,9 +4,18 @@
 \alias{image_nan}
 \title{Copy of http://stackoverflow.com/questions/20977477/how-to-assign-a-specific-color-to-na-in-an-image-plot}
 \usage{
-image_nan(z, col = heat.colors(12), zlim = NULL, na.color = "gray",
-  outside.below.color = "green", outside.above.color = "green", breaks,
-  textB = NULL, text.cex = 0.8, ...)
+image_nan(
+  z,
+  col = heat.colors(12),
+  zlim = NULL,
+  na.color = "gray",
+  outside.below.color = "green",
+  outside.above.color = "green",
+  breaks,
+  textB = NULL,
+  text.cex = 0.8,
+  ...
+)
 }
 \arguments{
 \item{z}{matrix}

@@ -4,8 +4,7 @@
 \alias{scaleByGroup}
 \title{scale data given group}
 \usage{
-scaleByGroup(data, protGroup, plot = FALSE, scale = TRUE,
-  center = TRUE)
+scaleByGroup(data, protGroup, plot = FALSE, scale = TRUE, center = TRUE)
 }
 \arguments{
 \item{data}{matrix}

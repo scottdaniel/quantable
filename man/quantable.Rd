@@ -3,8 +3,4 @@
 \docType{package}
 \name{quantable}
 \alias{quantable}
-\alias{quantable-package}
 \title{Streamline descriptive analysis of quantitative data matrices}
-\description{
-Streamline descriptive analysis of quantitative data matrices
-}

@@ -3,11 +3,10 @@
 \name{robustscale}
 \alias{robustscale}
 \title{robust scaling
-uses median an mad instead of mean and row
+uses median and mad instead of mean and row
 applies the scaling to the columns (samples) by default}
 \usage{
-robustscale(data, dim = 2, center = TRUE, scale = TRUE,
-  preserveScale = TRUE)
+robustscale(data, dim = 2, center = TRUE, scale = TRUE, preserveScale = TRUE)
 }
 \arguments{
 \item{data}{matrix or data.frame}
@@ -16,13 +15,13 @@ robustscale(data, dim = 2, center = TRUE, scale = TRUE,
 
 \item{center}{subract median (default:TRUE)}
 
-\item{scale}{scale by mad  (default:FALSE)}
+\item{scale}{scale by mad  (default:TRUE)}
 
 \item{preserveScale}{default TRUE , equalize scales but do not change them}
 }
 \description{
 robust scaling
-uses median an mad instead of mean and row
+uses median and mad instead of mean and row
 applies the scaling to the columns (samples) by default
 }
 \examples{

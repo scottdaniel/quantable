@@ -4,8 +4,14 @@
 \alias{filterSignificant}
 \title{filters significant values and returns them as list of data.frames}
 \usage{
-filterSignificant(foldchange, pvals, labels = NULL, pthresh = 0.05,
-  foldchangethresh = 1, biasAdjust = FALSE)
+filterSignificant(
+  foldchange,
+  pvals,
+  labels = NULL,
+  pthresh = 0.05,
+  foldchangethresh = 1,
+  biasAdjust = FALSE
+)
 }
 \arguments{
 \item{foldchange}{log2 fold changes}

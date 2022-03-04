@@ -4,9 +4,17 @@
 \alias{simpleheatmap}
 \title{heatmap2 facade}
 \usage{
-simpleheatmap(pln, main = "", distf = dist, hclustf = hclust,
-  labRow = "", palette = getBlueWhiteRed(), margins = c(5, 5),
-  scale = "none", ...)
+simpleheatmap(
+  pln,
+  main = "",
+  distf = dist,
+  hclustf = hclust,
+  labRow = "",
+  palette = getBlueWhiteRed(),
+  margins = c(5, 5),
+  scale = "none",
+  ...
+)
 }
 \arguments{
 \item{pln}{or dataframe with numerical values}

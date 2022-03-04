@@ -4,10 +4,22 @@
 \alias{imageWithLabelsNoLayout}
 \title{image plot with labels}
 \usage{
-imageWithLabelsNoLayout(x, col.labels = colnames(x),
-  row.labels = rownames(x), cex = 1, cex.axis = 0.5, main = NULL,
-  col = heat.colors(12), digits = 2, xlab = "", ylab = "",
-  zlim = NULL, na.color = "gray", textB = NULL, ...)
+imageWithLabelsNoLayout(
+  x,
+  col.labels = colnames(x),
+  row.labels = rownames(x),
+  cex = 1,
+  cex.axis = 0.5,
+  main = NULL,
+  col = heat.colors(12),
+  digits = 2,
+  xlab = "",
+  ylab = "",
+  zlim = NULL,
+  na.color = "gray",
+  textB = NULL,
+  ...
+)
 }
 \arguments{
 \item{x}{matrix}

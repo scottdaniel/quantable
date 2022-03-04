@@ -4,8 +4,14 @@
 \alias{addSpecialProteins}
 \title{add special labels}
 \usage{
-addSpecialProteins(p, dataX, special, foldchange = "log2FC",
-  pvalue = "q.mod", labels = "names")
+addSpecialProteins(
+  p,
+  dataX,
+  special,
+  foldchange = "log2FC",
+  pvalue = "q.mod",
+  labels = "names"
+)
 }
 \arguments{
 \item{p}{ggplot2}
